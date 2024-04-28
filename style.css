@@ -1,0 +1,41 @@
+body{
+    background:url(https://marmotamaps.com/de/fx/zoom-backgrounds/thumb-nordkette-zoom-background.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    height: 600px;
+}
+.wrapper{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width: 350px;
+    height: 350px;
+    text-align: center;
+    border:1px solid rgb(241,241,241);
+    border-radius: 12px;
+    padding: 10px 20px;
+    background: transparent ;
+    backdrop-filter:blur(6px);
+    box-shadow: 10px 10px 15px 0 rgb(0,0,0,0.5);
+ }
+ .wrapper h2{
+    font-size: 30px;
+    color:rgb(0, 0, 0)
+ }
+ .input-field{
+    position: relative;
+ }
+ .input-field input[type="Email"],
+ .input-field input[type="Password"]
+ {
+    border-radius: 3px;
+    border:2px solid rgb(255,255,255);
+    background:transparent;
+    margin : 5px ;
+    width: 280px;
+    height: 2px;
+    padding: 20px 40px 20px 20px;
+    backdrop-filter:blur(15px);
+}
